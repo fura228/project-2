@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('reset.css');
 @import url('animations.css');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Oswald:wght@200..700&display=swap');
+
 main
 {
     overflow-x: hidden;
@@ -9,10 +11,13 @@ main
     width: 1470px;
     background-color: #000000;
     height: 3680.36px;
+    font-family: "Jura";
+    color: white
 }
-div
-{
-    position: absolute;
+h1{
+    font-size: 312px;
+    margin-left: 191px;
+    margin-top: 329px;
 }
 .opening
 {
@@ -26,8 +31,24 @@ div
     display: flex;
     position: relative;
     height: 665.33px;
-    gap: -100px;
     flex-direction: row;
+    animation: ease-out;
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.ghost-rider2
+{
+    display: flex;
+    position: relative;
+    height: 665.33px;
+    flex-direction: row;
+    animation: ease-out;
+    animation-name: scroll2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
 }
 .green-glitch{
     background-color: #00FC15;
@@ -52,4 +73,32 @@ div
     width: 12%;
     height: 3%;
     opacity: 0%;
+}
+#rider
+{
+    margin-right: -100px;
+    
+}
+.frame-3
+{
+    display: flex;
+    flex-direction: row;
+}
+.anim-2
+{
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    font-size: 13px;
+    margin-left: 140px;
+}
+.anim-3
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 230px;
+    margin-right: 100px;
+    width: 730px;
+    height: 447px;
 }
