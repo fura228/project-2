@@ -12,7 +12,8 @@ main
     width: 1470px;
     background-color: #000000;
     font-family: "Jura";
-    color: white
+    color: white;
+    height: fit-content;
 }
 h1{
     font-size: 312px;
