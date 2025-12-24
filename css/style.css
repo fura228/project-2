@@ -81,7 +81,7 @@ h1{
 }
 .frame
 {
-    display: flex;
+    display: grid;
     flex-direction: row;
 }
 .anim-2
@@ -91,16 +91,22 @@ h1{
     width: 620px;
     font-size: 13px;
     margin-left: 140px;
+    grid-area: 1/1;
+    
+    
 }
 .anim-3
 {
     display: flex;
     flex-direction: column;
     font-size: 15px;
-    margin-top: 230px;
-
+    margin-top: 184px;
+    grid-area: 1/1;
     width: 730px;
     height: 447px;
+    margin-left: 735px;
+    padding-left: 71px;
+    padding-top: 78px;
 }
 .anim-4
 {
@@ -117,6 +123,7 @@ h1{
     color: black;
     background-color: white;
     padding-left: 40px;
+    grid-area: 1/1;
     
 }
 .anim-5
@@ -126,7 +133,8 @@ h1{
     flex-direction: column;
     font-size: 15px;
     margin-top: 230px;
-    margin-right: 200px;
+    margin-left: 720px;
     width: 693px;
     height: 432px;
+    grid-area: 1/1;
 }
