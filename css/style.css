@@ -79,7 +79,7 @@ h1{
     margin-right: -100px;
     
 }
-.frame-3
+.frame
 {
     display: flex;
     flex-direction: row;
@@ -98,7 +98,35 @@ h1{
     flex-direction: column;
     font-size: 15px;
     margin-top: 230px;
-    margin-right: 100px;
+
     width: 730px;
     height: 447px;
+}
+.anim-4
+{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 649px;
+    height: 430px;
+    font-size: 22px;
+    font-weight: bold;
+    gap: 40px;
+    font-size: 13px;
+    margin-left: 140px;
+    color: black;
+    background-color: white;
+    padding-left: 40px;
+    
+}
+.anim-5
+{
+    display: flex;
+    background-image: url(../assets/Frame\ 22.svg);
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 230px;
+    margin-right: 200px;
+    width: 693px;
+    height: 432px;
 }
