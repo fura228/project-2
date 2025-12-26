@@ -16,7 +16,6 @@ main
 {
     display: flex;
     flex-direction: column;
-    width: 1470px;
     font-family: "Jura";
     color: white;
 }
@@ -68,19 +67,19 @@ h1{
 .skyblue-glitch{
     background-color: #00D2FC;
 }
-#horizontal
+.horizontal
 {
     width: 3%;
     height: 12%;
-    opacity: 100%;
+
     animation: opacity 0.3s ease infinite;
     animation-delay: var(--ip1);
 }
-#vertical
+.vertical
 {
     width: 12%;
     height: 3%;
-    opacity: 0%;
+
 }
 #rider
 {
@@ -91,12 +90,13 @@ h1{
 {
     display: grid;
     flex-direction: row;
+    width: 100%;
 }
 .anim-2
 {
     display: flex;
     flex-direction: column;
-    width: 620px;
+    width: 50%;
     font-size: 13px;
     margin-left: 140px;
     grid-area: 1/1;
@@ -110,7 +110,7 @@ h1{
     font-size: 15px;
     margin-top: 184px;
     grid-area: 1/1;
-    width: 730px;
+    width: 50%;
     height: 447px;
     margin-left: 735px;
     padding-left: 71px;
@@ -121,7 +121,7 @@ h1{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 649px;
+    width: 50%;
     height: 430px;
     font-size: 22px;
     font-weight: bold;
@@ -143,7 +143,7 @@ h1{
     font-size: 15px;
     margin-top: 230px;
     margin-left: 720px;
-    width: 693px;
+    width: 50%;
     height: 432px;
     grid-area: 1/1;
 }
