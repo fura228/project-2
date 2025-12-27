@@ -81,9 +81,26 @@
         transform: translateX(100px);
         
     }
+    61%{
+        opacity: 0;
+    }
     100%{
         transform: translateX(-100px);
         opacity: 0;
     }
 
+}
+@keyframes text {
+    0%{
+        opacity: 1;
+    }
+    25%{
+        transform: translateY(40px);
+    }
+    26%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
 }
