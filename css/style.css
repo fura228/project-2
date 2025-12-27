@@ -8,7 +8,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    overflow-x: hidden;
     background-color: #000000;
 }
 main
@@ -152,6 +152,12 @@ h1{
 }
 .display-none{
     animation: heart 0.8s ease infinite;
+}
+.ending{
+    margin-left: 50%;
+    color: #35E500;
+    animation: opacity 0.8s ease-out infinite;
+    animation-delay: 100ms;
 }
 .movedown{
     animation: text 1s ease-out infinite;
