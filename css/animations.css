@@ -24,9 +24,12 @@
   0%{
     opacity: 0%;
   }
+  50%{
+    opacity: 100%;
+  }
 
   100%{
-    opacity: 100%;
+    opacity: 0%;
   }
 }
 @keyframes changecolor {
@@ -49,6 +52,38 @@
     }
     70%{
         background-color: #00D2FC;
+    }
+
+}
+
+@keyframes epilepsy {
+  0%{
+    
+  }
+  10%{
+    background-color: #00D2FC;
+    color: black
+  }
+
+  100%{
+    color: white;
+    background-color: black;
+  }
+}
+@keyframes heart {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    60%{
+        transform: translateX(100px);
+        
+    }
+    100%{
+        transform: translateX(-100px);
+        opacity: 0;
     }
 
 }
