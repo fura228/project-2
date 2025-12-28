@@ -14,10 +14,10 @@
         transform: translateX(100%);
     }
     20%{
-        transform: translateX(-500%);
+        transform: translateX(-150%);
     }
     100% {
-        transform: translateX(-500%);
+        transform: translateX(-200%);
     }
 }
 @keyframes opacity {

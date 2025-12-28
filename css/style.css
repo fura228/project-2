@@ -19,16 +19,16 @@ main
     color: white;
 }
 h1{
-    font-size: 312px;
-    margin-left: 191px;
-    margin-top: 329px;
+    font-size: 21vw;
+    left: 13%;
+    top: 22%;
     position: absolute;
 }
 .opening
 {
     position: relative;
     width: 100%;
-    height: 1084.73px;
+    height: 73.8vw;
 
 }
 .riders-frame
@@ -42,7 +42,7 @@ h1{
     display: flex;
     width: 100%;
     position: relative;
-    height: 665.33px;
+    height: 45.26vw;
     flex-direction: row;
     animation: ease-out;
     animation-name: scroll;
@@ -54,7 +54,7 @@ h1{
 {
     display: flex;
     position: relative;
-    height: 665.33px;
+    height: 45.26vw;
     flex-direction: row;
     animation: ease-out;
     animation-name: scroll2;
@@ -117,7 +117,7 @@ h1{
 }
 #rider
 {
-    margin-right: -100px;
+    margin-right: -6.8vw;
     
 }
 .frame
@@ -131,8 +131,8 @@ h1{
     display: flex;
     flex-direction: column;
     width: 50%;
-    font-size: 13px;
-    margin-left: 140px;
+    font-size: 1.1vw;
+    margin-left: 9.5vw;
     grid-area: 1/1;
     
     
@@ -141,14 +141,14 @@ h1{
 {
     display: flex;
     flex-direction: column;
-    font-size: 15px;
-    margin-top: 184px;
+    font-size: 1.1vw;
+    margin-top: 12.5vw;
     grid-area: 1/1;
     width: 50%;
-    height: 447px;
-    margin-left: 735px;
-    padding-left: 71px;
-    padding-top: 78px;
+    height: 30.4vw;
+    margin-left: 50vw;
+    padding-left: 4.8vw;
+    padding-top: 5.3vw;
 }
 .display-none{
     animation: heart 0.8s ease infinite;
@@ -159,6 +159,7 @@ h1{
     animation: opacity 0.8s ease-out infinite;
     animation-delay: 100ms;
 }
+
 .movedown{
     animation: text 1s ease-out infinite;
 }
@@ -168,29 +169,25 @@ h1{
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 430px;
-    font-size: 22px;
+    height: 29.2vw;
+    font-size: 1.5vw;
     font-weight: bold;
-    gap: 40px;
-    font-size: 13px;
-    margin-left: 140px;
+    gap: 2.7vw;
+    margin-left: 9.5vw;
     color: black;
     background-color: white;
-    padding-left: 40px;
+    padding-left: 2.7vw;
     grid-area: 1/1;
     animation: changecolor 0.5s infinite ease-out;
     
 }
 .anim-5
 {
-    display: flex;
     background-image: url(../assets/Frame\ 22.svg);
-    flex-direction: column;
-    font-size: 15px;
-    margin-top: 230px;
-    margin-left: 720px;
+    margin-top: 15.6vw;
+    margin-left: 49vw;
     width: 50%;
-    height: 432px;
+    height: 29.4vw;
     grid-area: 1/1;
 }
 .row
@@ -198,17 +195,105 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 68px;
+    font-size: 4.6vw;
 }
 footer
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 26px;
+    font-size: 1.8vw;
     color: white;
     font-family: "Jura";
-    padding: 32px;
-    height: 287px;
-    margin-top: 45px;
+    padding: 2.2vw;
+    height: 19.5vw;
+    margin-top: 3vw;
 }
+
+@media screen and (max-width: 1024px) {
+    
+    .body{
+        align-items: center;
+    }
+
+
+
+    .ghost-rider, .ghost-rider2 {
+        height: 30vh;         
+        min-height: 200px;
+    }
+    .ghost-rider img, .ghost-rider2 img {
+        height: 100%;
+        width: auto;
+    }
+    
+
+    .frame {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+
+    .anim-2, .anim-3, .anim-4, .anim-5 {
+        width: 90%;         
+        margin: 0 auto;        
+        padding: 20px;
+        height: auto;         
+        grid-area: auto;
+        box-sizing: border-box; 
+    }
+
+
+    .anim-2 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+
+    .anim-3 {
+        margin-left: auto;    
+        margin-top: 0;
+        padding-left: 20px;  
+        padding-top: 20px;
+    }
+
+
+    .anim-4 {
+        gap: 20px;
+        font-size: 16px;
+        text-align: center;  
+    }
+
+
+    .anim-5 {
+        margin-top: 20px;
+        margin-left: auto;
+        background-size: cover;
+        background-position: center;
+        min-height: 300px;     /
+    }
+
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 30px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .row {
+        font-size: 32px;     
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .ending {
+    
+ 
+    .horizontal, .vertical {
+        opacity: 0.7;
+    }
+    }}
