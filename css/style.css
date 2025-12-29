@@ -186,6 +186,7 @@ h1{
 .anim-5
 {
     background-image: url(../assets/Frame\ 22.svg);
+    background-repeat: no-repeat;
     margin-top: 15.6vw;
     margin-left: 49vw;
     width: 50%;
